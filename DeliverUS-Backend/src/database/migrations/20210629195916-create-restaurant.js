@@ -86,6 +86,9 @@ module.exports = {
           },
           key: 'id'
         }
+      },
+      pinnedAt: {
+        type: Sequelize.DATE
       }
     })
   },
